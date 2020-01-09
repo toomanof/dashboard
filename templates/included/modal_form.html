@@ -1,0 +1,30 @@
+<div class="modal fade" id="modal_form" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{modal_title}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="form_data" action="{{url_form_action}}">
+          {% csrf_token %}
+          {% include "included/form_fields.html" with form=form %}
+            {{ form.media.js }}
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    console.log(typeof djangoSelect2);
+                    if(typeof $('.django-select2').djangoSelect2 === 'function')
+                        $('.django-select2').djangoSelect2({language: "ru"});    
+                });
+            </script>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary" data-wizard-type="action-submit">Сохранить</button>
+      </div>
+    </div>
+  </div>
+</div>

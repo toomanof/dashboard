@@ -1,0 +1,36 @@
+{% load widget_tweaks %}
+
+{% if field.is_hidden %}
+    {{ field }}
+{% else %}
+    <div class="form-group {{sub_class}}">
+
+            {% if disabled %}
+                {%if label %}
+                    <label class="{{label_class}}">{{field.label}}</label>
+                {% endif %}
+                <div class="{{input_class}}">
+                    {% render_field field readonly="readonly" disabled="disabled" class="form-control" %}
+                </div>
+            {% else %}
+                {% if field.field.widget.input_type == 'select' %}
+                    <label class="{{label_class}}">{{field.label}}</label>
+                    <div class="{{input_class}}">
+                        {% if icon_input_class %}
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="{{icon_input_class}}"></i></span></div>
+                                {% render_field field class="form-control" %}
+                            </div>
+                        {% else %}
+                            {% render_field field class="form-control" %}
+                        {% endif %}
+                    </div>
+                {% else %}
+                    {% render_field field class="form-control" placeholder=field.label %}
+                {% endif %}
+            {% endif %}
+        {% for error in field.errors %}
+            <p class="error_msg">{{error}}</p>
+        {% endfor %}
+    </div>
+{% endif %}

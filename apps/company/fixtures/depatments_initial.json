@@ -1,0 +1,163 @@
+[
+    {
+        "pk": 2,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Финансовый отдел"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Плановый отдел"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Бухгалтерия"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Коммерческая дирекция"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Тендерный отдел"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "company.Departments",
+        "fields": {
+            "name": "ИВЦ"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Углесбыт"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "company.Departments",
+        "fields": {
+            "name": "ОТРиВКП"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "company.Departments",
+        "fields": {
+            "name": "ЕМС"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Соцвопросы"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Капстроительство"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Охрана труда"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Генеральный директор"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Первый заместитель генерального директора"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Отдел кадров"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Производственная дирекция"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Редакция газеты"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Юридический отдел"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "company.Departments",
+        "fields": {
+            "name": "СКИиАД"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Отдел качества"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Техническая дирекция"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "company.Departments",
+        "fields": {
+            "name": "ООУиП"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "company.Departments",
+        "fields": {
+            "name": "Статистика"
+        }
+    }
+]

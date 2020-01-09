@@ -1,0 +1,21 @@
+{% extends "included/tables_dynamic.html" %}
+
+{% block  html_init_head_datatable %}
+    {% for column_name in columns_name %}
+        <th>{{column_name}}</th>
+    {% endfor %}
+{% endblock %}
+
+{%block js_init_columns_datatable %}
+[
+    {% for field_name in fields_name %}
+        {"data": "{{field_name}}"},
+    {% endfor %}
+    {% if not readonly %}
+    {"data":null,"defaultContent":'<ul class="nav navbar-center panel_toolbox">\
+                <li><a data-wizard-type="action-edit"><i class="fa fa-edit"></i></a></li>\
+                <li><a data-wizard-type="action-remove"><i class="fa fa-trash-o"></i></a></li>\
+              </ul>'},
+    {% endif %}
+]
+{% endblock%}

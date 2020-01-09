@@ -1,0 +1,83 @@
+{% extends "base_site.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block title %} Login {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+  <!-- Animate.css -->
+  <link href="{% static 'dashboard/vendors/animate.css/animate.min.css' %}" rel="stylesheet">
+{% endblock stylesheets %}
+
+{% block body_class %}login{% endblock body_class %}
+
+{% block body %}
+  <div>
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
+
+    <div class="login_wrapper">
+      <div class="animate form login_form">
+        <section class="login_content">
+          <form method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <h1>Авторизация</h1>
+            <div>
+              {% render_field form.username class="form-control" placeholder="Пользователь" %}
+            </div>
+            <div>
+              {% render_field form.password class="form-control" placeholder="Пароль" %}
+            </div>
+            <div>
+              <button class="btn btn-default submit" type="submit">Log in</button>
+              <a class="reset_pass" href="#">Забыли пароль?</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">New to site?
+                <a href="#signup" class="to_register">Регистрация</a>
+              </p>
+
+              <div class="clearfix"></div>
+              <br />
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div id="register" class="animate form registration_form">
+        <section class="login_content">
+          <form>
+            <h1>Регистрация</h1>
+            <div>
+              <input type="text" class="form-control" placeholder="Username" required="" />
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="Email" required="" />
+            </div>
+            <div>
+              <input type="password" class="form-control" placeholder="Password" required="" />
+            </div>
+            <div>
+              <a class="btn btn-default submit" href="index.html">Submit</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">Already a member ?
+                <a href="#signin" class="to_register">Авторизация</a>
+              </p>
+
+              <div class="clearfix"></div>
+              <br />
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
+

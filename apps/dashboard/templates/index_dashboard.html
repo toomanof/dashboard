@@ -1,0 +1,46 @@
+{% extends "base_site.html" %}
+
+{% block title %} Панель управления {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+  <div class="right_col" role="main">
+    <!-- top tiles -->
+    {% include 'includes/top_titles.html' %}
+    <!-- /top tiles -->
+    {% include 'includes/different.html' %}
+    {% include 'includes/indicators.html' %}
+    {% include 'includes/network_activities.html' %}    
+
+  </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super}}
+  <!-- Chart.js -->
+  <script src="/static/dashboard/vendors/Chart.js/dist/Chart.min.js"></script>
+  <!-- gauge.js -->
+  <script src="/static/dashboard/vendors/gauge.js/dist/gauge.min.js"></script>
+  <!-- Skycons -->
+  <script src="/static/dashboard/vendors/skycons/skycons.js"></script>
+  <!-- Flot -->
+  <script src="/static/dashboard/vendors/Flot/jquery.flot.js"></script>
+  <script src="/static/dashboard/vendors/Flot/jquery.flot.pie.js"></script>
+  <script src="/static/dashboard/vendors/Flot/jquery.flot.time.js"></script>
+  <script src="/static/dashboard/vendors/Flot/jquery.flot.stack.js"></script>
+  <script src="/static/dashboard/vendors/Flot/jquery.flot.resize.js"></script>
+  <!-- Flot plugins -->
+  <script src="/static/dashboard/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+  <script src="/static/dashboard/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+  <script src="/static/dashboard/vendors/flot.curvedlines/curvedLines.js"></script>
+  <!-- DateJS -->
+  <script src="/static/dashboard/vendors/DateJS/build/date.js"></script>
+  <!-- JQVMap -->
+  <script src="/static/dashboard/vendors/jqvmap/dist/jquery.vmap.js"></script>
+  <script src="/static/dashboard/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="/static/dashboard/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>  
+{% endblock javascripts %}
+

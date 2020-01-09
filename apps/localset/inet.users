@@ -1,0 +1,2943 @@
+host general-ap-asus {
+	hardware ethernet bc:ae:c5:b0:05:c4;
+	fixed-address 172.16.0.73;
+	option host-name general-ap-asus;
+	ddns-hostname general-ap-asus;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host komerch-ap-dir320 {
+	hardware ethernet f0:7d:68:9b:f4:63;
+	fixed-address 172.16.0.150;
+	option host-name komerch-ap-dir320;
+	ddns-hostname komerch-ap-dir320;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host uglesbut0212 {
+	hardware ethernet 00:25:22:d5:c3:97;
+	fixed-address 172.16.0.118;
+	option host-name uglesbut0212;
+	ddns-hostname uglesbut0212;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host tender-silchenko {
+	hardware ethernet 00:e0:4d:95:b7:b5;
+	fixed-address 172.16.0.91;
+	option host-name tender-silchenko;
+	ddns-hostname tender-silchenko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kadry-lymar {
+	hardware ethernet 30:85:a9:3b:f9:60;
+	fixed-address 172.16.0.17;
+	option host-name kadry-lymar;
+	ddns-hostname kadry-lymar;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host buh-bakay-a5 {
+	hardware ethernet 34:14:5f:1a:cd:81;
+	fixed-address 172.16.0.32;
+	option host-name buh-bakay-a5;
+	ddns-hostname buh-bakay-a5;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host inna-kadry {
+	hardware ethernet 30:9c:23:29:5d:6a;
+	fixed-address 172.16.0.18;
+	option host-name inna-kadry;
+	ddns-hostname inna-kadry;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ems3 {
+	hardware ethernet 00:19:db:bc:6b:d9;
+	fixed-address 172.16.0.92;
+	option host-name ems3;
+	ddns-hostname ems3;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host gritsaypc {
+	hardware ethernet 90:2b:34:0c:66:02;
+	fixed-address 172.16.0.130;
+	option host-name gritsaypc;
+	ddns-hostname gritsaypc;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host soc2 {
+	hardware ethernet 00:1a:4d:30:c8:54;
+	fixed-address 172.16.0.159;
+	option host-name soc2;
+	ddns-hostname soc2;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kru-001 {
+	hardware ethernet 00:25:22:71:5e:a5;
+	fixed-address 172.16.0.123;
+	option host-name kru-001;
+	ddns-hostname kru-001;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host statistika {
+	hardware ethernet 00:11:2f:ad:c3:d7;
+	fixed-address 172.16.0.89;
+	option host-name statistika;
+	ddns-hostname statistika;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phone-umi {
+	hardware ethernet 04:b1:67:3c:e3:26;
+	fixed-address 172.16.0.28;
+	option host-name phone-umi;
+	ddns-hostname phone-umi;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host buh-vasilenko {
+	hardware ethernet e0:3f:49:ac:c2:dc;
+	fixed-address 172.16.0.162;
+	option host-name buh-vasilenko;
+	ddns-hostname buh-vasilenko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host buh-verlamova {
+	hardware ethernet 00:19:66:d7:1e:51;
+	fixed-address 172.16.0.72;
+	option host-name buh-verlamova;
+	ddns-hostname buh-verlamova;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ems-demura {
+	hardware ethernet 00:25:22:34:8c:0e;
+	fixed-address 172.16.0.246;
+	option host-name ems-demura;
+	ddns-hostname ems-demura;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host editor-julia {
+	hardware ethernet 00:19:66:e4:11:c4;
+	fixed-address 172.16.0.240;
+	option host-name editor-julia;
+	ddns-hostname editor-julia;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kapstroy-tanya {
+	hardware ethernet 00:50:8d:ba:04:0d;
+	fixed-address 172.16.0.166;
+	option host-name kapstroy-tanya;
+	ddns-hostname kapstroy-tanya;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host plan-kozyreva {
+	hardware ethernet 90:e6:ba:b9:3d:ed;
+	fixed-address 172.16.0.208;
+	option host-name plan-kozyreva;
+	ddns-hostname plan-kozyreva;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tumanov {
+	hardware ethernet 8c:89:a5:7c:ad:45;
+	fixed-address 172.16.0.14;
+	option host-name tumanov;
+	ddns-hostname tumanov;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host buh-bakay {
+	hardware ethernet b0:6e:bf:ce:ed:f1;
+	fixed-address 172.16.0.136;
+	option host-name buh-bakay;
+	ddns-hostname buh-bakay;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host finans-smagliy {
+	hardware ethernet 00:24:1d:5f:6b:d6;
+	fixed-address 172.16.0.232;
+	option host-name finans-smagliy;
+	ddns-hostname finans-smagliy;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ugb-111 {
+	hardware ethernet 00:25:22:34:92:d7;
+	fixed-address 172.16.0.111;
+	option host-name ugb-111;
+	ddns-hostname ugb-111;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host finans-pivovarova {
+	hardware ethernet 00:30:67:a7:a5:42;
+	fixed-address 172.16.0.233;
+	option host-name finans-pivovarova;
+	ddns-hostname finans-pivovarova;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host buh-zam {
+	hardware ethernet 00:25:22:01:2a:f0;
+	fixed-address 172.16.0.168;
+	option host-name buh-zam;
+	ddns-hostname buh-zam;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host plan2 {
+	hardware ethernet 00:1e:2c:5a:08:47;
+	fixed-address 172.16.1.229;
+	option host-name plan2;
+	ddns-hostname plan2;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planovy-dmitri {
+	hardware ethernet 24:b6:fd:15:fe:02;
+	fixed-address 172.16.1.228;
+	option host-name planovy-dmitri;
+	ddns-hostname planovy-dmitri;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host proizvod-ivanova {
+	hardware ethernet 00:1d:7d:d8:8b:f5;
+	fixed-address 172.16.0.252;
+	option host-name proizvod-ivanova;
+	ddns-hostname proizvod-ivanova;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host nedviga {
+	hardware ethernet 00:30:67:b1:4b:a8;
+	fixed-address 172.16.0.209;
+	option host-name nedviga;
+	ddns-hostname nedviga;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host IVC3 {
+	hardware ethernet 00:50:fc:91:5c:5e;
+	fixed-address 172.16.1.83;
+	option host-name IVC3;
+	ddns-hostname IVC3;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host scherbakov-alexandr {
+	hardware ethernet 00:0e:2e:2b:96:6b;
+	fixed-address 172.16.0.133;
+	option host-name scherbakov-alexandr;
+	ddns-hostname scherbakov-alexandr;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host redko-tamara {
+	hardware ethernet 00:30:67:28:1d:97;
+	fixed-address 172.16.0.135;
+	option host-name redko-tamara;
+	ddns-hostname redko-tamara;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ivc5 {
+	hardware ethernet 00:e0:4d:4c:6a:d1;
+	fixed-address 172.16.1.85;
+	option host-name ivc5;
+	ddns-hostname ivc5;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ugb-tahtaulova {
+	hardware ethernet 8c:89:a5:7c:ae:b0;
+	fixed-address 172.16.0.164;
+	option host-name ugb-tahtaulova;
+	ddns-hostname ugb-tahtaulova;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host svischev {
+	hardware ethernet 9c:2e:a1:aa:44:b5;
+	fixed-address 172.16.0.107;
+	option host-name svischev;
+	ddns-hostname svischev;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ecolog {
+	hardware ethernet 94:de:80:10:ab:bf;
+	fixed-address 172.16.1.184;
+	option host-name ecolog;
+	ddns-hostname ecolog;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host saenko {
+	hardware ethernet 98:4b:e1:c1:8b:db;
+	fixed-address 172.16.0.47;
+	option host-name saenko;
+	ddns-hostname saenko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tehdir-ekolog {
+	hardware ethernet 00:1d:7d:d8:87:29;
+	fixed-address 172.16.1.192;
+	option host-name tehdir-ekolog;
+	ddns-hostname tehdir-ekolog;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host normir-2 {
+	hardware ethernet 00:25:22:52:38:57;
+	fixed-address 172.16.0.193;
+	option host-name normir-2;
+	ddns-hostname normir-2;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kachestvo8 {
+	hardware ethernet 90:2b:34:45:4f:26;
+	fixed-address 172.16.0.237;
+	option host-name kachestvo8;
+	ddns-hostname kachestvo8;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host brdr {
+	hardware ethernet 00:17:31:8d:70:55;
+	fixed-address 172.16.0.3;
+	option host-name brdr;
+	ddns-hostname brdr;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kach-shkurenko {
+	hardware ethernet 94:de:80:ca:4c:18;
+	fixed-address 172.16.0.194;
+	option host-name kach-shkurenko;
+	ddns-hostname kach-shkurenko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host finansist3 {
+	hardware ethernet 00:a1:b0:01:7c:43;
+	fixed-address 172.16.0.48;
+	option host-name finansist3;
+	ddns-hostname finansist3;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host yurotdel {
+	hardware ethernet 00:1b:fc:ff:2d:c9;
+	fixed-address 172.16.0.27;
+	option host-name yurotdel;
+	ddns-hostname yurotdel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host dns {
+	hardware ethernet de:ad:85:3b:e6:81;
+	fixed-address 172.16.0.6;
+	option host-name dns;
+	ddns-hostname dns;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host OTRiVKP {
+	hardware ethernet 90:2b:34:45:57:a7;
+	fixed-address 172.16.0.88;
+	option host-name OTRiVKP;
+	ddns-hostname OTRiVKP;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ems-demura-pk {
+	hardware ethernet 6c:f0:49:a5:d6:53;
+	fixed-address 172.16.0.24;
+	option host-name ems-demura-pk;
+	ddns-hostname ems-demura-pk;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host finans2 {
+	hardware ethernet 00:25:22:34:66:9a;
+	fixed-address 172.16.0.50;
+	option host-name finans2;
+	ddns-hostname finans2;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host finansist2 {
+	hardware ethernet 40:16:7e:68:c4:2e;
+	fixed-address 172.16.0.49;
+	option host-name finansist2;
+	ddns-hostname finansist2;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host zamkomm {
+	hardware ethernet 00:a1:b0:11:e2:f0;
+	fixed-address 172.16.0.95;
+	option host-name zamkomm;
+	ddns-hostname zamkomm;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host ugb-svetlana {
+	hardware ethernet 90:2b:34:bc:90:49;
+	fixed-address 172.16.0.112;
+	option host-name ugb-svetlana;
+	ddns-hostname ugb-svetlana;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host gensek {
+	hardware ethernet 00:25:22:63:9f:17;
+	fixed-address 172.16.0.148;
+	option host-name gensek;
+	ddns-hostname gensek;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host dispetcher {
+	hardware ethernet 90:2b:34:39:1d:d8;
+	fixed-address 172.16.0.109;
+	option host-name dispetcher;
+	ddns-hostname dispetcher;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host zhuravel {
+	hardware ethernet 00:02:44:ae:98:ad;
+	fixed-address 172.16.0.31;
+	option host-name zhuravel;
+	ddns-hostname zhuravel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ugb-britan {
+	hardware ethernet 90:2b:34:bc:8e:bc;
+	fixed-address 172.16.0.110;
+	option host-name ugb-britan;
+	ddns-hostname ugb-britan;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kach-bondar {
+	hardware ethernet 00:50:fc:cd:f3:ca;
+	fixed-address 172.16.0.76;
+	option host-name kach-bondar;
+	ddns-hostname kach-bondar;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host tel-scherbarov {
+	hardware ethernet 6c:5f:1c:be:d8:79;
+	fixed-address 172.16.0.105;
+	option host-name tel-scherbarov;
+	ddns-hostname tel-scherbarov;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host 3floor {
+	hardware ethernet 00:27:22:61:f7:55;
+	fixed-address 172.16.0.173;
+	option host-name 3floor;
+	ddns-hostname 3floor;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host airdom-general {
+	hardware ethernet dc:9f:db:28:99:d1;
+	fixed-address 172.16.0.176;
+	option host-name airdom-general;
+	ddns-hostname airdom-general;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host nvr-server {
+	hardware ethernet 0c:c4:7a:aa:c6:2e;
+	fixed-address 172.16.0.7;
+	option host-name nvr-server;
+	ddns-hostname nvr-server;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host aircam-vestibul {
+	hardware ethernet 00:27:22:61:f7:0a;
+	fixed-address 172.16.0.170;
+	option host-name aircam-vestibul;
+	ddns-hostname aircam-vestibul;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host aircam-coridor2 {
+	hardware ethernet 00:27:22:61:f7:20;
+	fixed-address 172.16.0.172;
+	option host-name aircam-coridor2;
+	ddns-hostname aircam-coridor2;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host proizvod-pc {
+	hardware ethernet 00:16:e6:68:5b:87;
+	fixed-address 172.16.0.98;
+	option host-name proizvod-pc;
+	ddns-hostname proizvod-pc;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ot {
+	hardware ethernet 90:2b:34:08:8c:e8;
+	fixed-address 172.16.0.119;
+	option host-name ot;
+	ddns-hostname ot;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host shkurenkoredmi4x {
+	hardware ethernet d8:63:75:90:3c:1b;
+	fixed-address 172.16.0.121;
+	option host-name shkurenkoredmi4x;
+	ddns-hostname shkurenkoredmi4x;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kach5 {
+	hardware ethernet 94:de:80:13:10:f6;
+	fixed-address 172.16.0.122;
+	option host-name kach5;
+	ddns-hostname kach5;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host britan-PC {
+	hardware ethernet 74:d0:2b:27:59:f3;
+	fixed-address 172.16.0.114;
+	option host-name britan-PC;
+	ddns-hostname britan-PC;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host airdome-vestibul {
+	hardware ethernet dc:9f:db:28:99:fa;
+	fixed-address 172.16.0.177;
+	option host-name airdome-vestibul;
+	ddns-hostname airdome-vestibul;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host cam-cam-179 {
+	hardware ethernet 00:27:22:61:f9:12;
+	fixed-address 172.16.0.179;
+	option host-name cam-cam-179;
+	ddns-hostname cam-cam-179;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host brdr2 {
+	hardware ethernet de:ad:ad:9b:3a:66;
+	fixed-address 172.16.0.1;
+	option host-name brdr2;
+	ddns-hostname brdr2;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kancel-oksana {
+	hardware ethernet 00:25:22:78:b2:72;
+	fixed-address 172.16.0.20;
+	option host-name kancel-oksana;
+	ddns-hostname kancel-oksana;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host mbwork {
+	hardware ethernet 90:2b:34:45:ad:41;
+	fixed-address 172.16.0.10;
+	option host-name mbwork;
+	ddns-hostname mbwork;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host storage {
+	hardware ethernet f4:6d:04:3d:7e:d2;
+	fixed-address 172.16.0.2;
+	option host-name storage;
+	ddns-hostname storage;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host serverterminal {
+	hardware ethernet de:ad:96:36:86:4b;
+	fixed-address 172.16.0.9;
+	option host-name serverterminal;
+	ddns-hostname serverterminal;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host mbnote {
+	hardware ethernet 60:6c:66:d5:91:1b;
+	fixed-address 172.16.0.11;
+	option host-name mbnote;
+	ddns-hostname mbnote;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host britan-iphone {
+	hardware ethernet 90:72:40:5d:34:75;
+	fixed-address 172.16.0.108;
+	option host-name britan-iphone;
+	ddns-hostname britan-iphone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host siruk-v {
+	hardware ethernet 90:00:db:42:30:6f;
+	fixed-address 172.16.0.45;
+	option host-name siruk-v;
+	ddns-hostname siruk-v;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tehdir {
+	hardware ethernet 00:25:22:59:0b:f3;
+	fixed-address 172.16.0.186;
+	option host-name tehdir;
+	ddns-hostname tehdir;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host pcwork {
+	hardware ethernet bc:ae:c5:46:4c:eb;
+	fixed-address 172.16.0.189;
+	option host-name pcwork;
+	ddns-hostname pcwork;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host skapenko {
+	hardware ethernet 00:19:db:bc:6b:fa;
+	fixed-address 172.16.0.86;
+	option host-name skapenko;
+	ddns-hostname skapenko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host belevsky-phone {
+	hardware ethernet 4c:49:e3:e4:de:cb;
+	fixed-address 172.16.0.29;
+	option host-name belevsky-phone;
+	ddns-hostname belevsky-phone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host air-cam-lavka {
+	hardware ethernet 00:27:22:61:f7:13;
+	fixed-address 172.16.0.178;
+	option host-name air-cam-lavka;
+	ddns-hostname air-cam-lavka;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host beh-iphone {
+	hardware ethernet a4:d1:d2:ce:a3:d8;
+	fixed-address 172.16.0.97;
+	option host-name beh-iphone;
+	ddns-hostname beh-iphone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host taranova-susm {
+	hardware ethernet 6c:00:6b:72:ba:9d;
+	fixed-address 172.16.1.155;
+	option host-name taranova-susm;
+	ddns-hostname taranova-susm;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ASUS {
+	hardware ethernet 40:16:7e:92:7e:0a;
+	fixed-address 172.16.0.34;
+	option host-name ASUS;
+	ddns-hostname ASUS;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host router-tehdir {
+	hardware ethernet 10:bf:48:b4:75:08;
+	fixed-address 172.16.0.181;
+	option host-name router-tehdir;
+	ddns-hostname router-tehdir;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host sams-persid {
+	hardware ethernet 5c:0a:5b:cb:f6:f7;
+	fixed-address 172.16.0.146;
+	option host-name sams-persid;
+	ddns-hostname sams-persid;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host pugaeva {
+	hardware ethernet 14:da:e9:0f:58:c8;
+	fixed-address 172.16.0.129;
+	option host-name pugaeva;
+	ddns-hostname pugaeva;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host tumanov-fon {
+	hardware ethernet f4:cb:52:57:54:b3;
+	fixed-address 172.16.2.10;
+	option host-name tumanov-fon;
+	ddns-hostname tumanov-fon;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsung-inna {
+	hardware ethernet a8:81:95:3e:5d:14;
+	fixed-address 172.16.0.126;
+	option host-name samsung-inna;
+	ddns-hostname samsung-inna;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host newdns {
+	hardware ethernet 52:54:00:92:da:b2;
+	fixed-address 172.16.0.120;
+	option host-name newdns;
+	ddns-hostname newdns;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host buh-tanya {
+	hardware ethernet 60:a4:4c:2e:96:63;
+	fixed-address 172.16.0.93;
+	option host-name buh-tanya;
+	ddns-hostname buh-tanya;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phone {
+	hardware ethernet b4:52:7e:34:e1:92;
+	fixed-address 172.16.0.116;
+	option host-name phone;
+	ddns-hostname phone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host hmara-nout {
+	hardware ethernet 54:04:a6:1e:5e:ea;
+	fixed-address 172.16.0.174;
+	option host-name hmara-nout;
+	ddns-hostname hmara-nout;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xeomi-inna {
+	hardware ethernet b0:e2:35:ed:a9:e0;
+	fixed-address 172.16.0.153;
+	option host-name xeomi-inna;
+	ddns-hostname xeomi-inna;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host pom-maxim {
+	hardware ethernet 40:c6:2a:4e:d7:95;
+	fixed-address 172.16.0.52;
+	option host-name pom-maxim;
+	ddns-hostname pom-maxim;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host pom-maxim-notebook {
+	hardware ethernet a4:db:30:07:9e:e6;
+	fixed-address 172.16.0.58;
+	option host-name pom-maxim-notebook;
+	ddns-hostname pom-maxim-notebook;
+	option domain-name-servers 8.8.8.8;
+}
+host asus-selev {
+	hardware ethernet 74:c6:3b:83:68:7f;
+	fixed-address 172.16.0.145;
+	option host-name asus-selev;
+	ddns-hostname asus-selev;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host artur-phone {
+	hardware ethernet 90:21:81:fe:98:d3;
+	fixed-address 172.16.0.64;
+	option host-name artur-phone;
+	ddns-hostname artur-phone;
+	option domain-name-servers 8.8.8.8;
+}
+host hpnotebook {
+	hardware ethernet 20:10:7a:f9:a9:78;
+	fixed-address 172.16.0.106;
+	option host-name hpnotebook;
+	ddns-hostname hpnotebook;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host galkintel {
+	hardware ethernet d8:32:e3:ae:63:62;
+	fixed-address 172.16.0.113;
+	option host-name galkintel;
+	ddns-hostname galkintel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host bronikov-pc {
+	hardware ethernet 08:60:6e:7b:17:90;
+	fixed-address 172.16.0.117;
+	option host-name bronikov-pc;
+	ddns-hostname bronikov-pc;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host upts-buh2 {
+	hardware ethernet 00:e0:42:9a:00:be;
+	fixed-address 172.16.0.101;
+	option host-name upts-buh2;
+	ddns-hostname upts-buh2;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host samstumanova {
+	hardware ethernet 78:40:e4:08:3f:25;
+	fixed-address 172.16.0.12;
+	option host-name samstumanova;
+	ddns-hostname samstumanova;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host TP-Link-720N {
+	hardware ethernet 18:d6:c7:31:eb:09;
+	fixed-address 172.16.50.50;
+	option host-name TP-Link-720N;
+	ddns-hostname TP-Link-720N;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host notebooktoomanof {
+	hardware ethernet 70:1a:04:40:9a:80;
+	fixed-address 172.16.0.15;
+	option host-name notebooktoomanof;
+	ddns-hostname notebooktoomanof;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xiaomi4x {
+	hardware ethernet c4:0b:cb:3e:60:17;
+	fixed-address 172.16.0.70;
+	option host-name xiaomi4x;
+	ddns-hostname xiaomi4x;
+	option domain-name-servers 8.8.8.8;
+}
+host router-general2 {
+	hardware ethernet 18:d6:c7:5f:19:52;
+	fixed-address 172.16.0.169;
+	option host-name router-general2;
+	ddns-hostname router-general2;
+	option domain-name-servers 8.8.8.8;
+}
+host proiz-sony {
+	hardware ethernet 44:74:6c:79:c8:85;
+	fixed-address 172.16.0.90;
+	option host-name proiz-sony;
+	ddns-hostname proiz-sony;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host denisyuk-phone {
+	hardware ethernet f0:ee:10:18:16:32;
+	fixed-address 172.16.0.37;
+	option host-name denisyuk-phone;
+	ddns-hostname denisyuk-phone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host smart-lenovo {
+	hardware ethernet 54:27:58:c7:df:80;
+	fixed-address 172.16.0.63;
+	option host-name smart-lenovo;
+	ddns-hostname smart-lenovo;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host pc-upts {
+	hardware ethernet 1c:1b:0d:80:01:de;
+	fixed-address 172.16.0.60;
+	option host-name pc-upts;
+	ddns-hostname pc-upts;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host smart-xiaomi {
+	hardware ethernet 78:02:f8:2b:ab:87;
+	fixed-address 172.16.0.30;
+	option host-name smart-xiaomi;
+	ddns-hostname smart-xiaomi;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host notebook-vahta {
+	hardware ethernet 9c:b7:0d:1b:d5:c7;
+	fixed-address 172.16.0.33;
+	option host-name notebook-vahta;
+	ddns-hostname notebook-vahta;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host huawei-lumar {
+	hardware ethernet b8:08:d7:e2:2f:d3;
+	fixed-address 172.16.0.16;
+	option host-name huawei-lumar;
+	ddns-hostname huawei-lumar;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xiaomipro {
+	hardware ethernet f4:60:e2:ff:91:9a;
+	fixed-address 172.16.0.69;
+	option host-name xiaomipro;
+	ddns-hostname xiaomipro;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host alik-lenovo {
+	hardware ethernet 88:70:8c:92:41:78;
+	fixed-address 172.16.0.56;
+	option host-name alik-lenovo;
+	ddns-hostname alik-lenovo;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host shvecov-lg {
+	hardware ethernet 48:59:29:d3:02:0c;
+	fixed-address 172.16.0.94;
+	option host-name shvecov-lg;
+	ddns-hostname shvecov-lg;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host buffer-server {
+	hardware ethernet b8:ac:6f:95:2a:be;
+	fixed-address 172.16.0.222;
+	option host-name buffer-server;
+	ddns-hostname buffer-server;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsungphone {
+	hardware ethernet 44:6d:6c:16:5f:af;
+	fixed-address 172.16.0.182;
+	option host-name samsungphone;
+	ddns-hostname samsungphone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phoneRedmi {
+	hardware ethernet a8:9c:ed:76:3d:35;
+	fixed-address 172.16.0.152;
+	option host-name phoneRedmi;
+	ddns-hostname phoneRedmi;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phonelena {
+	hardware ethernet 48:fd:a3:ea:d5:9d;
+	fixed-address 172.16.0.175;
+	option host-name phonelena;
+	ddns-hostname phonelena;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host s8 {
+	hardware ethernet 04:d6:aa:78:95:28;
+	fixed-address 172.16.1.22;
+	option host-name s8;
+	ddns-hostname s8;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sams-vasilenko {
+	hardware ethernet 94:b1:0a:8b:5d:c5;
+	fixed-address 172.16.0.96;
+	option host-name sams-vasilenko;
+	ddns-hostname sams-vasilenko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host yura-sams {
+	hardware ethernet 04:4b:ff:02:83:d7;
+	fixed-address 172.16.0.62;
+	option host-name yura-sams;
+	ddns-hostname yura-sams;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sam8 {
+	hardware ethernet 34:aa:8b:20:c1:cf;
+	fixed-address 172.16.0.61;
+	option host-name sam8;
+	ddns-hostname sam8;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host sam-rybalkina {
+	hardware ethernet 28:84:c9:6e:70:7c;
+	fixed-address 172.16.0.59;
+	option host-name sam-rybalkina;
+	ddns-hostname sam-rybalkina;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host bookAsus {
+	hardware ethernet 64:6e:69:11:bc:d6;
+	fixed-address 172.16.0.127;
+	option host-name bookAsus;
+	ddns-hostname bookAsus;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host bookAcer {
+	hardware ethernet 68:14:01:4a:1e:09;
+	fixed-address 172.16.1.15;
+	option host-name bookAcer;
+	ddns-hostname bookAcer;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ploterpc {
+	hardware ethernet 00:00:21:ec:e9:2a;
+	fixed-address 172.16.0.188;
+	option host-name ploterpc;
+	ddns-hostname ploterpc;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host LenovoPhone {
+	hardware ethernet 60:f4:45:dc:96:9c;
+	fixed-address 172.16.0.65;
+	option host-name LenovoPhone;
+	ddns-hostname LenovoPhone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planshetsamsung {
+	hardware ethernet c0:d3:c0:e8:63:fd;
+	fixed-address 172.16.0.42;
+	option host-name planshetsamsung;
+	ddns-hostname planshetsamsung;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lesnye {
+	hardware ethernet 50:46:5d:4b:93:91;
+	fixed-address 172.16.1.200;
+	option host-name lesnye;
+	ddns-hostname lesnye;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host microsoft_mobile {
+	hardware ethernet 20:f4:78:af:f8:2a;
+	fixed-address 172.16.1.100;
+	option host-name microsoft_mobile;
+	ddns-hostname microsoft_mobile;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host uglesbutnew {
+	hardware ethernet bc:ae:c5:92:e4:23;
+	fixed-address 172.16.0.40;
+	option host-name uglesbutnew;
+	ddns-hostname uglesbutnew;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host router-uglesbut {
+	hardware ethernet c0:25:e9:6a:1a:2a;
+	fixed-address 172.16.2.201;
+	option host-name router-uglesbut;
+	ddns-hostname router-uglesbut;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host nikiforov-lenovo {
+	hardware ethernet 9c:d2:1e:fe:f5:83;
+	fixed-address 172.16.1.243;
+	option host-name nikiforov-lenovo;
+	ddns-hostname nikiforov-lenovo;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phonehuawei {
+	hardware ethernet 8c:0d:76:89:71:e6;
+	fixed-address 172.16.0.79;
+	option host-name phonehuawei;
+	ddns-hostname phonehuawei;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phonesamsung {
+	hardware ethernet 14:16:9e:12:91:1b;
+	fixed-address 172.16.0.41;
+	option host-name phonesamsung;
+	ddns-hostname phonesamsung;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host toshiba-svischev {
+	hardware ethernet 00:16:e3:e5:16:84;
+	fixed-address 172.16.0.38;
+	option host-name toshiba-svischev;
+	ddns-hostname toshiba-svischev;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lg-driver-vladimir {
+	hardware ethernet 88:07:4b:ed:35:cd;
+	fixed-address 172.16.0.87;
+	option host-name lg-driver-vladimir;
+	ddns-hostname lg-driver-vladimir;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host remi-shashneva {
+	hardware ethernet c4:0b:cb:c1:72:bf;
+	fixed-address 172.16.0.180;
+	option host-name remi-shashneva;
+	ddns-hostname remi-shashneva;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sam {
+	hardware ethernet 18:e2:c2:9f:5f:df;
+	fixed-address 172.16.0.128;
+	option host-name sam;
+	ddns-hostname sam;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lg-doc {
+	hardware ethernet c4:43:8f:ff:dc:bc;
+	fixed-address 172.16.0.35;
+	option host-name lg-doc;
+	ddns-hostname lg-doc;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host mizu-kalinina {
+	hardware ethernet 1c:cd:e5:41:4f:0f;
+	fixed-address 172.16.0.75;
+	option host-name mizu-kalinina;
+	ddns-hostname mizu-kalinina;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host zinoviev {
+	hardware ethernet 4c:cc:6a:8e:5e:8e;
+	fixed-address 172.16.0.26;
+	option host-name zinoviev;
+	ddns-hostname zinoviev;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host fly-lena {
+	hardware ethernet 14:6b:72:40:70:ec;
+	fixed-address 172.16.0.19;
+	option host-name fly-lena;
+	ddns-hostname fly-lena;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host smartJ7 {
+	hardware ethernet c8:38:70:65:f5:2d;
+	fixed-address 172.16.0.100;
+	option host-name smartJ7;
+	ddns-hostname smartJ7;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host konRedmi {
+	hardware ethernet c8:3d:dc:93:2f:3b;
+	fixed-address 172.16.0.142;
+	option host-name konRedmi;
+	ddns-hostname konRedmi;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsungsmart {
+	hardware ethernet 04:d6:aa:fb:ae:46;
+	fixed-address 172.16.0.21;
+	option host-name samsungsmart;
+	ddns-hostname samsungsmart;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phoneserg {
+	hardware ethernet 24:92:0e:d6:7e:5a;
+	fixed-address 172.16.0.71;
+	option host-name phoneserg;
+	ddns-hostname phoneserg;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sonyxperia {
+	hardware ethernet 20:54:76:82:91:e4;
+	fixed-address 172.16.0.125;
+	option host-name sonyxperia;
+	ddns-hostname sonyxperia;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host redmi3s {
+	hardware ethernet 20:f4:78:ad:7a:f2;
+	fixed-address 172.16.0.187;
+	option host-name redmi3s;
+	ddns-hostname redmi3s;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host MeizuM3S {
+	hardware ethernet 04:b1:67:b8:2f:ee;
+	fixed-address 172.16.0.171;
+	option host-name MeizuM3S;
+	ddns-hostname MeizuM3S;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host meizum3s2 {
+	hardware ethernet 1c:cd:e5:0c:ac:b5;
+	fixed-address 172.16.0.23;
+	option host-name meizum3s2;
+	ddns-hostname meizum3s2;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host iphone6s {
+	hardware ethernet 78:d7:5f:27:66:0d;
+	fixed-address 172.16.0.67;
+	option host-name iphone6s;
+	ddns-hostname iphone6s;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sony {
+	hardware ethernet 00:eb:2d:d4:48:33;
+	fixed-address 172.16.1.10;
+	option host-name sony;
+	ddns-hostname sony;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sam_stefanish {
+	hardware ethernet cc:3a:61:75:eb:b0;
+	fixed-address 172.16.1.122;
+	option host-name sam_stefanish;
+	ddns-hostname sam_stefanish;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lenovotab {
+	hardware ethernet 60:d9:a0:0e:21:68;
+	fixed-address 172.16.1.11;
+	option host-name lenovotab;
+	ddns-hostname lenovotab;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host meizu123456 {
+	hardware ethernet 1c:cd:e5:54:c1:95;
+	fixed-address 172.16.1.20;
+	option host-name meizu123456;
+	ddns-hostname meizu123456;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host prestigio_sv {
+	hardware ethernet 00:4e:05:00:45:bf;
+	fixed-address 172.16.1.8;
+	option host-name prestigio_sv;
+	ddns-hostname prestigio_sv;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host oldphone {
+	hardware ethernet b0:ec:71:74:bb:5a;
+	fixed-address 172.16.0.13;
+	option host-name oldphone;
+	ddns-hostname oldphone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 172.16.0.6;
+}
+host lgsmart {
+	hardware ethernet 58:3f:54:e5:86:e0;
+	fixed-address 172.16.1.21;
+	option host-name lgsmart;
+	ddns-hostname lgsmart;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host tplink841 {
+	hardware ethernet a0:f3:c1:ee:5d:d2;
+	fixed-address 172.16.1.33;
+	option host-name tplink841;
+	ddns-hostname tplink841;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host BQphone {
+	hardware ethernet bc:41:01:79:41:80;
+	fixed-address 172.16.1.77;
+	option host-name BQphone;
+	ddns-hostname BQphone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsungsoc {
+	hardware ethernet 08:78:08:1a:5b:e8;
+	fixed-address 172.16.1.30;
+	option host-name samsungsoc;
+	ddns-hostname samsungsoc;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xiaomi4akach {
+	hardware ethernet ec:d0:9f:9c:3b:2d;
+	fixed-address 172.16.1.25;
+	option host-name xiaomi4akach;
+	ddns-hostname xiaomi4akach;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host router_mehanik {
+	hardware ethernet 70:4f:57:fc:df:df;
+	fixed-address 172.16.50.51;
+	option host-name router_mehanik;
+	ddns-hostname router_mehanik;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host demura_asus_phon {
+	hardware ethernet 30:5a:3a:3d:fa:24;
+	fixed-address 172.16.1.27;
+	option host-name demura_asus_phon;
+	ddns-hostname demura_asus_phon;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host booklenovko {
+	hardware ethernet 2c:33:7a:8f:4f:11;
+	fixed-address 172.16.1.90;
+	option host-name booklenovko;
+	ddns-hostname booklenovko;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host shkurenko_pc {
+	hardware ethernet 70:85:c2:57:b5:40;
+	fixed-address 172.16.1.88;
+	option host-name shkurenko_pc;
+	ddns-hostname shkurenko_pc;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lenovophone {
+	hardware ethernet a0:32:99:cd:f4:a8;
+	fixed-address 172.16.1.23;
+	option host-name lenovophone;
+	ddns-hostname lenovophone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host kudrakov-sam {
+	hardware ethernet a8:9f:ba:98:4e:9b;
+	fixed-address 172.16.1.234;
+	option host-name kudrakov-sam;
+	ddns-hostname kudrakov-sam;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host mi-pasha {
+	hardware ethernet 38:a4:ed:b1:17:ad;
+	fixed-address 172.16.23.23;
+	option host-name mi-pasha;
+	ddns-hostname mi-pasha;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host iphoneq {
+	hardware ethernet 80:4a:14:96:e7:d1;
+	fixed-address 172.16.1.63;
+	option host-name iphoneq;
+	ddns-hostname iphoneq;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host huawai-pert {
+	hardware ethernet 50:01:d9:95:b3:59;
+	fixed-address 172.16.1.64;
+	option host-name huawai-pert;
+	ddns-hostname huawai-pert;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host phone-shevkol {
+	hardware ethernet 00:03:ac:13:4f:59;
+	fixed-address 172.16.1.69;
+	option host-name phone-shevkol;
+	ddns-hostname phone-shevkol;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host phone-marksh {
+	hardware ethernet e0:cb:ee:3d:68:73;
+	fixed-address 172.16.1.70;
+	option host-name phone-marksh;
+	ddns-hostname phone-marksh;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host developer {
+	hardware ethernet d8:cb:8a:e6:5e:51;
+	fixed-address 172.16.13.13;
+	option host-name developer;
+	ddns-hostname developer;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telefon {
+	hardware ethernet 94:92:bc:72:e2:91;
+	fixed-address 172.16.1.104;
+	option host-name telefon;
+	ddns-hostname telefon;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telefonchik {
+	hardware ethernet 84:7a:88:7b:33:91;
+	fixed-address 172.16.1.26;
+	option host-name telefonchik;
+	ddns-hostname telefonchik;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host acer-kovalenko {
+	hardware ethernet 68:94:23:4b:a9:d5;
+	fixed-address 172.16.1.136;
+	option host-name acer-kovalenko;
+	ddns-hostname acer-kovalenko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host sams-taranova {
+	hardware ethernet 08:78:08:7c:41:86;
+	fixed-address 172.16.1.245;
+	option host-name sams-taranova;
+	ddns-hostname sams-taranova;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host shkurenko-serg {
+	hardware ethernet 1c:6f:65:2c:ca:b4;
+	fixed-address 172.16.2.98;
+	option host-name shkurenko-serg;
+	ddns-hostname shkurenko-serg;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ifon-saiko {
+	hardware ethernet 94:94:26:ce:43:b0;
+	fixed-address 172.16.1.60;
+	option host-name ifon-saiko;
+	ddns-hostname ifon-saiko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host lug-hz {
+	hardware ethernet 00:ec:0a:ba:3e:b7;
+	fixed-address 172.16.1.101;
+	option host-name lug-hz;
+	ddns-hostname lug-hz;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host alex-hz {
+	hardware ethernet f4:f5:db:c3:63:cd;
+	fixed-address 172.16.1.19;
+	option host-name alex-hz;
+	ddns-hostname alex-hz;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kolisov-sd {
+	hardware ethernet 48:88:ca:8d:f8:40;
+	fixed-address 172.16.1.3;
+	option host-name kolisov-sd;
+	ddns-hostname kolisov-sd;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kurator-i5 {
+	hardware ethernet ec:35:86:c2:8b:2d;
+	fixed-address 172.16.1.4;
+	option host-name kurator-i5;
+	ddns-hostname kurator-i5;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host AsusX451UApci {
+	hardware ethernet 88:d7:f6:1c:d7:0c;
+	fixed-address 172.16.0.102;
+	option host-name AsusX451UApci;
+	ddns-hostname AsusX451UApci;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host notebookter {
+	hardware ethernet 6c:71:d9:a7:52:9b;
+	fixed-address 172.16.1.96;
+	option host-name notebookter;
+	ddns-hostname notebookter;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host iphone-gricai {
+	hardware ethernet 68:db:ca:41:2c:b7;
+	fixed-address 172.16.1.135;
+	option host-name iphone-gricai;
+	ddns-hostname iphone-gricai;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host samsung-tel {
+	hardware ethernet 3c:dc:bc:77:06:06;
+	fixed-address 172.16.1.54;
+	option host-name samsung-tel;
+	ddns-hostname samsung-tel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planotd {
+	hardware ethernet 74:d0:2b:2c:12:c3;
+	fixed-address 172.16.1.87;
+	option host-name planotd;
+	ddns-hostname planotd;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host iphone-petrovich {
+	hardware ethernet 64:70:33:b7:6a:52;
+	fixed-address 172.16.1.254;
+	option host-name iphone-petrovich;
+	ddns-hostname iphone-petrovich;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host turd-sams {
+	hardware ethernet d8:63:75:ca:f9:85;
+	fixed-address 172.16.1.212;
+	option host-name turd-sams;
+	ddns-hostname turd-sams;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host svetlana-phon {
+	hardware ethernet 74:23:44:94:33:1b;
+	fixed-address 172.16.1.148;
+	option host-name svetlana-phon;
+	ddns-hostname svetlana-phon;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host pozharnikdaun {
+	hardware ethernet ac:22:0b:3a:c9:c3;
+	fixed-address 172.16.1.16;
+	option host-name pozharnikdaun;
+	ddns-hostname pozharnikdaun;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ana-stolov {
+	hardware ethernet 1c:15:1f:62:2a:36;
+	fixed-address 172.16.1.127;
+	option host-name ana-stolov;
+	ddns-hostname ana-stolov;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telsams {
+	hardware ethernet 9c:e0:63:29:d8:70;
+	fixed-address 172.16.1.66;
+	option host-name telsams;
+	ddns-hostname telsams;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host zinovievpc {
+	hardware ethernet 50:e5:49:1b:90:1c;
+	fixed-address 172.16.0.149;
+	option host-name zinovievpc;
+	ddns-hostname zinovievpc;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xiaomi5 {
+	hardware ethernet e0:62:67:2b:c3:63;
+	fixed-address 172.16.1.80;
+	option host-name xiaomi5;
+	ddns-hostname xiaomi5;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planshet {
+	hardware ethernet 00:94:08:10:fa:57;
+	fixed-address 172.16.1.18;
+	option host-name planshet;
+	ddns-hostname planshet;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xperiaphone {
+	hardware ethernet 28:3f:69:f2:33:ef;
+	fixed-address 172.16.1.111;
+	option host-name xperiaphone;
+	ddns-hostname xperiaphone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lenovophonelenovo {
+	hardware ethernet 70:72:0d:77:76:75;
+	fixed-address 172.16.1.55;
+	option host-name lenovophonelenovo;
+	ddns-hostname lenovophonelenovo;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host ztetelefon {
+	hardware ethernet 34:69:87:14:80:83;
+	fixed-address 172.16.1.110;
+	option host-name ztetelefon;
+	ddns-hostname ztetelefon;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host Xiaomi4a {
+	hardware ethernet ec:d0:9f:9b:cf:ad;
+	fixed-address 172.16.1.24;
+	option host-name Xiaomi4a;
+	ddns-hostname Xiaomi4a;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsungduos {
+	hardware ethernet 80:65:6d:7e:21:86;
+	fixed-address 172.16.1.65;
+	option host-name samsungduos;
+	ddns-hostname samsungduos;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host routertplink {
+	hardware ethernet f4:f2:6d:d4:24:6e;
+	fixed-address 172.16.1.170;
+	option host-name routertplink;
+	ddns-hostname routertplink;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host samsungtelefon {
+	hardware ethernet 4c:dd:31:71:36:95;
+	fixed-address 172.16.1.113;
+	option host-name samsungtelefon;
+	ddns-hostname samsungtelefon;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telsamter {
+	hardware ethernet 00:87:01:5a:48:d8;
+	fixed-address 172.16.1.40;
+	option host-name telsamter;
+	ddns-hostname telsamter;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telllephon {
+	hardware ethernet e0:dc:ff:0a:35:23;
+	fixed-address 172.16.1.120;
+	option host-name telllephon;
+	ddns-hostname telllephon;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host slaviktel {
+	hardware ethernet b0:e2:35:c1:48:87;
+	fixed-address 172.16.1.131;
+	option host-name slaviktel;
+	ddns-hostname slaviktel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sonytel {
+	hardware ethernet 48:2c:a0:a2:d3:45;
+	fixed-address 172.16.1.144;
+	option host-name sonytel;
+	ddns-hostname sonytel;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telkoms {
+	hardware ethernet 50:8f:4c:ea:52:1e;
+	fixed-address 172.16.1.98;
+	option host-name telkoms;
+	ddns-hostname telkoms;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host probook4530s {
+	hardware ethernet e4:11:5b:2c:77:de;
+	fixed-address 172.16.0.115;
+	option host-name probook4530s;
+	ddns-hostname probook4530s;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telefonbashko {
+	hardware ethernet 54:dc:1d:ce:af:7a;
+	fixed-address 172.16.1.28;
+	option host-name telefonbashko;
+	ddns-hostname telefonbashko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telephonbashko {
+	hardware ethernet 00:04:33:48:35:5e;
+	fixed-address 172.16.1.29;
+	option host-name telephonbashko;
+	ddns-hostname telephonbashko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host DLinkDSL2600U {
+	hardware ethernet 1c:af:f7:b1:a6:84;
+	fixed-address 172.16.50.52;
+	option host-name DLinkDSL2600U;
+	ddns-hostname DLinkDSL2600U;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host svjaz1 {
+	hardware ethernet 60:a1:0a:9b:e5:02;
+	fixed-address 172.16.1.210;
+	option host-name svjaz1;
+	ddns-hostname svjaz1;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 172.16.0.6, 8.8.8.8;
+}
+host svjaz2 {
+	hardware ethernet 6c:5f:1c:86:d3:6c;
+	fixed-address 172.16.1.211;
+	option host-name svjaz2;
+	ddns-hostname svjaz2;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host lapatina_phone {
+	hardware ethernet 48:27:ea:4b:4c:17;
+	fixed-address 172.16.1.175;
+	option host-name lapatina_phone;
+	ddns-hostname lapatina_phone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tolik_phone {
+	hardware ethernet 00:ec:0a:ba:03:1e;
+	fixed-address 172.16.1.38;
+	option host-name tolik_phone;
+	ddns-hostname tolik_phone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host asusnout {
+	hardware ethernet 50:5b:c2:36:13:91;
+	fixed-address 172.16.1.52;
+	option host-name asusnout;
+	ddns-hostname asusnout;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 172.16.0.6, 8.8.8.8;
+}
+host hpnot {
+	hardware ethernet bc:85:56:f5:64:f1;
+	fixed-address 172.16.1.213;
+	option host-name hpnot;
+	ddns-hostname hpnot;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 172.16.0.6, 8.8.8.8;
+}
+host teltel {
+	hardware ethernet 80:35:c1:64:1a:aa;
+	fixed-address 172.16.1.151;
+	option host-name teltel;
+	ddns-hostname teltel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 172.16.0.6, 8.8.8.8;
+}
+host tektryu {
+	hardware ethernet 00:30:83:12:93:69;
+	fixed-address 172.16.1.152;
+	option host-name tektryu;
+	ddns-hostname tektryu;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 172.16.0.6, 8.8.8.8;
+}
+host bookmini {
+	hardware ethernet c4:46:19:86:47:e9;
+	fixed-address 172.16.1.220;
+	option host-name bookmini;
+	ddns-hostname bookmini;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host xiaomiphone {
+	hardware ethernet 20:a6:0c:51:9c:4c;
+	fixed-address 172.16.1.191;
+	option host-name xiaomiphone;
+	ddns-hostname xiaomiphone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host iphonchik {
+	hardware ethernet 58:40:4e:c8:69:24;
+	fixed-address 172.16.1.193;
+	option host-name iphonchik;
+	ddns-hostname iphonchik;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host phonenoname {
+	hardware ethernet 14:36:c6:64:3e:02;
+	fixed-address 172.16.1.201;
+	option host-name phonenoname;
+	ddns-hostname phonenoname;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host telefonvolody {
+	hardware ethernet 7c:b9:60:13:c6:13;
+	fixed-address 172.16.1.165;
+	option host-name telefonvolody;
+	ddns-hostname telefonvolody;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host honor_zinoviev {
+	hardware ethernet a8:7d:12:39:e2:05;
+	fixed-address 172.16.1.36;
+	option host-name honor_zinoviev;
+	ddns-hostname honor_zinoviev;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host phoneinsp {
+	hardware ethernet a0:c9:a0:c3:7f:d6;
+	fixed-address 172.16.1.204;
+	option host-name phoneinsp;
+	ddns-hostname phoneinsp;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host svjazbuh {
+	hardware ethernet bc:ae:c5:98:eb:ca;
+	fixed-address 172.16.1.130;
+	option host-name svjazbuh;
+	ddns-hostname svjazbuh;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planshetohranagp {
+	hardware ethernet 00:12:24:41:34:4a;
+	fixed-address 172.16.1.181;
+	option host-name planshetohranagp;
+	ddns-hostname planshetohranagp;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host routerkach {
+	hardware ethernet ac:84:c6:4f:8a:d4;
+	fixed-address 172.16.1.107;
+	option host-name routerkach;
+	ddns-hostname routerkach;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host monoblok {
+	hardware ethernet 70:c9:4e:b9:31:3d;
+	fixed-address 172.16.1.140;
+	option host-name monoblok;
+	ddns-hostname monoblok;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host planshetohr {
+	hardware ethernet cc:73:14:23:27:35;
+	fixed-address 172.16.1.150;
+	option host-name planshetohr;
+	ddns-hostname planshetohr;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host sarapionov-iphone {
+	hardware ethernet 78:31:c1:03:21:eb;
+	fixed-address 172.16.2.15;
+	option host-name sarapionov-iphone;
+	ddns-hostname sarapionov-iphone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host planshohr {
+	hardware ethernet 78:87:21:1c:2a:47;
+	fixed-address 172.16.1.218;
+	option host-name planshohr;
+	ddns-hostname planshohr;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host kristi-phone {
+	hardware ethernet 50:8f:4c:5e:73:53;
+	fixed-address 172.16.0.25;
+	option host-name kristi-phone;
+	ddns-hostname kristi-phone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host stolovajaphone {
+	hardware ethernet 00:08:22:7b:78:70;
+	fixed-address 172.16.1.123;
+	option host-name stolovajaphone;
+	ddns-hostname stolovajaphone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host iphone4 {
+	hardware ethernet 28:cf:e9:96:ae:ce;
+	fixed-address 172.16.1.199;
+	option host-name iphone4;
+	ddns-hostname iphone4;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host terkom_phone {
+	hardware ethernet 20:a9:0e:0a:27:eb;
+	fixed-address 172.16.2.25;
+	option host-name terkom_phone;
+	ddns-hostname terkom_phone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host xiaomigritsay {
+	hardware ethernet 80:35:c1:77:62:05;
+	fixed-address 172.16.1.112;
+	option host-name xiaomigritsay;
+	ddns-hostname xiaomigritsay;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host xiaomi6pro {
+	hardware ethernet 48:2c:a0:aa:24:ed;
+	fixed-address 172.16.1.115;
+	option host-name xiaomi6pro;
+	ddns-hostname xiaomi6pro;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host xiaomikurjer {
+	hardware ethernet 80:ad:16:66:3b:69;
+	fixed-address 172.16.1.106;
+	option host-name xiaomikurjer;
+	ddns-hostname xiaomikurjer;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host xiaomidoctor {
+	hardware ethernet 7c:03:ab:eb:c1:17;
+	fixed-address 172.16.1.93;
+	option host-name xiaomidoctor;
+	ddns-hostname xiaomidoctor;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host tplink841n {
+	hardware ethernet 84:16:f9:2f:3d:c0;
+	fixed-address 172.16.1.13;
+	option host-name tplink841n;
+	ddns-hostname tplink841n;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host xiaomimudraja {
+	hardware ethernet 9c:2e:a1:d9:9a:69;
+	fixed-address 172.16.1.34;
+	option host-name xiaomimudraja;
+	ddns-hostname xiaomimudraja;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host Xiaominikitina {
+	hardware ethernet 18:01:f1:3b:da:c1;
+	fixed-address 172.16.1.35;
+	option host-name Xiaominikitina;
+	ddns-hostname Xiaominikitina;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host telefonsvjaz {
+	hardware ethernet 90:97:f3:43:b1:0e;
+	fixed-address 172.16.1.132;
+	option host-name telefonsvjaz;
+	ddns-hostname telefonsvjaz;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host phonetemp {
+	hardware ethernet 00:03:ab:fb:ce:e0;
+	fixed-address 172.16.1.177;
+	option host-name phonetemp;
+	ddns-hostname phonetemp;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host mizu-tonya {
+	hardware ethernet 7c:03:5e:9b:c9:82;
+	fixed-address 172.16.1.134;
+	option host-name mizu-tonya;
+	ddns-hostname mizu-tonya;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host sam-nn {
+	hardware ethernet 00:87:01:cc:82:02;
+	fixed-address 172.16.1.198;
+	option host-name sam-nn;
+	ddns-hostname sam-nn;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host Asus {
+	hardware ethernet a4:17:31:6e:c9:c9;
+	fixed-address 172.16.2.123;
+	option host-name Asus;
+	ddns-hostname Asus;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host Htcdd {
+	hardware ethernet bc:cf:cc:56:8e:63;
+	fixed-address 172.16.2.124;
+	option host-name Htcdd;
+	ddns-hostname Htcdd;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host toshiba_av {
+	hardware ethernet 74:e5:43:58:ab:57;
+	fixed-address 172.16.2.211;
+	option host-name toshiba_av;
+	ddns-hostname toshiba_av;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host phonebabushkatanja {
+	hardware ethernet b0:c5:ca:a9:64:21;
+	fixed-address 172.16.1.141;
+	option host-name phonebabushkatanja;
+	ddns-hostname phonebabushkatanja;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host teldispetch {
+	hardware ethernet e0:e6:2e:0e:12:d4;
+	fixed-address 172.16.1.166;
+	option host-name teldispetch;
+	ddns-hostname teldispetch;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host homayko {
+	hardware ethernet 70:3a:51:90:ec:d4;
+	fixed-address 172.16.1.128;
+	option host-name homayko;
+	ddns-hostname homayko;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host markshtel {
+	hardware ethernet 98:f1:70:21:f0:ea;
+	fixed-address 172.16.1.117;
+	option host-name markshtel;
+	ddns-hostname markshtel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host taranovaPC {
+	hardware ethernet 00:30:67:b1:49:aa;
+	fixed-address 172.16.0.103;
+	option host-name taranovaPC;
+	ddns-hostname taranovaPC;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host asusnexus {
+	hardware ethernet d8:50:e6:78:40:4e;
+	fixed-address 172.16.1.249;
+	option host-name asusnexus;
+	ddns-hostname asusnexus;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host terkomelena {
+	hardware ethernet d8:6c:02:9a:be:ff;
+	fixed-address 172.16.1.119;
+	option host-name terkomelena;
+	ddns-hostname terkomelena;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ugligor {
+	hardware ethernet 30:39:26:32:8d:a5;
+	fixed-address 172.16.1.126;
+	option host-name ugligor;
+	ddns-hostname ugligor;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host notebookred {
+	hardware ethernet 00:1b:8c:01:02:03;
+	fixed-address 172.16.1.125;
+	option host-name notebookred;
+	ddns-hostname notebookred;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host teleputryhnl {
+	hardware ethernet a8:87:b3:63:c9:db;
+	fixed-address 172.16.1.186;
+	option host-name teleputryhnl;
+	ddns-hostname teleputryhnl;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host notebookES1 {
+	hardware ethernet 70:c9:4e:b7:5e:d3;
+	fixed-address 172.16.1.252;
+	option host-name notebookES1;
+	ddns-hostname notebookES1;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host notebookES1lan {
+	hardware ethernet 98:28:a6:0f:18:66;
+	fixed-address 172.16.1.253;
+	option host-name notebookES1lan;
+	ddns-hostname notebookES1lan;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host iphone-savinkova {
+	hardware ethernet 2c:be:08:99:21:c1;
+	fixed-address 172.16.1.244;
+	option host-name iphone-savinkova;
+	ddns-hostname iphone-savinkova;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telsamsugb {
+	hardware ethernet d8:68:c3:9b:d6:5b;
+	fixed-address 172.16.1.206;
+	option host-name telsamsugb;
+	ddns-hostname telsamsugb;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host nalodovaja {
+	hardware ethernet ac:5f:3e:77:88:f3;
+	fixed-address 172.16.1.251;
+	option host-name nalodovaja;
+	ddns-hostname nalodovaja;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host notebooksmagliy {
+	hardware ethernet dc:0e:a1:e3:7e:9f;
+	fixed-address 172.16.1.248;
+	option host-name notebooksmagliy;
+	ddns-hostname notebooksmagliy;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host dvova {
+	hardware ethernet 94:87:e0:71:17:38;
+	fixed-address 172.16.1.118;
+	option host-name dvova;
+	ddns-hostname dvova;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host svzbuh {
+	hardware ethernet cc:73:14:10:14:ce;
+	fixed-address 172.16.1.209;
+	option host-name svzbuh;
+	ddns-hostname svzbuh;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host xiaomimi9 {
+	hardware ethernet 60:ab:67:fb:08:30;
+	fixed-address 172.16.1.222;
+	option host-name xiaomimi9;
+	ddns-hostname xiaomimi9;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host plesovskih {
+	hardware ethernet 18:3a:2d:46:8a:0e;
+	fixed-address 172.16.1.169;
+	option host-name plesovskih;
+	ddns-hostname plesovskih;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tellll {
+	hardware ethernet e4:a7:c5:6a:aa:17;
+	fixed-address 172.16.1.108;
+	option host-name tellll;
+	ddns-hostname tellll;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host lehfiwe {
+	hardware ethernet 50:f0:d3:ca:e3:80;
+	fixed-address 172.16.234.48;
+	option host-name lehfiwe;
+	ddns-hostname lehfiwe;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host shakula_ph {
+	hardware ethernet 04:d1:3a:d9:07:67;
+	fixed-address 172.16.23.24;
+	option host-name shakula_ph;
+	ddns-hostname shakula_ph;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host podmagaev {
+	hardware ethernet 44:91:60:8f:23:18;
+	fixed-address 172.16.23.245;
+	option host-name podmagaev;
+	ddns-hostname podmagaev;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host beh-iphone7 {
+	hardware ethernet dc:a9:04:c0:e8:16;
+	fixed-address 172.16.23.213;
+	option host-name beh-iphone7;
+	ddns-hostname beh-iphone7;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host planshetohrannnn {
+	hardware ethernet d8:68:c3:74:2e:19;
+	fixed-address 172.16.1.133;
+	option host-name planshetohrannnn;
+	ddns-hostname planshetohrannnn;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tehdirnikPhone {
+	hardware ethernet d8:32:e3:9a:49:2e;
+	fixed-address 172.16.1.121;
+	option host-name tehdirnikPhone;
+	ddns-hostname tehdirnikPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telvahta {
+	hardware ethernet f4:71:90:13:30:06;
+	fixed-address 172.16.1.102;
+	option host-name telvahta;
+	ddns-hostname telvahta;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host tplink840inspector {
+	hardware ethernet 70:4f:57:ae:15:6b;
+	fixed-address 172.16.1.32;
+	option host-name tplink840inspector;
+	ddns-hostname tplink840inspector;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host merkulovPhone {
+	hardware ethernet 00:ec:0a:79:ce:ba;
+	fixed-address 172.16.1.1;
+	option host-name merkulovPhone;
+	ddns-hostname merkulovPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telinvest {
+	hardware ethernet 4c:d1:a1:ba:c1:0f;
+	fixed-address 172.16.1.57;
+	option host-name telinvest;
+	ddns-hostname telinvest;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telkostrica {
+	hardware ethernet 1c:cd:e5:4f:1d:90;
+	fixed-address 172.16.1.81;
+	option host-name telkostrica;
+	ddns-hostname telkostrica;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host uptstel {
+	hardware ethernet f4:60:e2:4a:fd:ce;
+	fixed-address 172.16.1.114;
+	option host-name uptstel;
+	ddns-hostname uptstel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host phonePoryshnik {
+	hardware ethernet 00:00:6e:42:f2:6e;
+	fixed-address 172.16.0.43;
+	option host-name phonePoryshnik;
+	ddns-hostname phonePoryshnik;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host merkulovpc {
+	hardware ethernet 18:31:bf:e1:5c:b7;
+	fixed-address 172.16.1.31;
+	option host-name merkulovpc;
+	ddns-hostname merkulovpc;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host mixalishPhone {
+	hardware ethernet c0:85:4c:84:99:89;
+	fixed-address 172.16.1.149;
+	option host-name mixalishPhone;
+	ddns-hostname mixalishPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host VDPC {
+	hardware ethernet 50:3c:c4:5c:c7:a0;
+	fixed-address 172.16.1.147;
+	option host-name VDPC;
+	ddns-hostname VDPC;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telsamsbuh {
+	hardware ethernet 24:4b:81:c3:a6:19;
+	fixed-address 172.16.1.161;
+	option host-name telsamsbuh;
+	ddns-hostname telsamsbuh;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.4.4;
+}
+host uristtelxiaomi {
+	hardware ethernet 48:fd:a3:ee:92:d7;
+	fixed-address 172.16.1.51;
+	option host-name uristtelxiaomi;
+	ddns-hostname uristtelxiaomi;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host galcinPhone {
+	hardware ethernet 00:27:15:e7:da:f6;
+	fixed-address 172.16.1.2;
+	option host-name galcinPhone;
+	ddns-hostname galcinPhone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host lugtel {
+	hardware ethernet 7c:03:5e:a8:96:1f;
+	fixed-address 172.16.1.99;
+	option host-name lugtel;
+	ddns-hostname lugtel;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host fvfvbgbgbgbbgbbg {
+	hardware ethernet 18:f0:e4:f0:2f:cb;
+	fixed-address 172.16.1.17;
+	option host-name fvfvbgbgbgbbgbbg;
+	ddns-hostname fvfvbgbgbgbbgbbg;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host iphonedisp {
+	hardware ethernet c0:63:94:3b:e8:62;
+	fixed-address 172.16.1.105;
+	option host-name iphonedisp;
+	ddns-hostname iphonedisp;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host finnastya {
+	hardware ethernet 20:a6:0c:20:54:c4;
+	fixed-address 172.16.1.156;
+	option host-name finnastya;
+	ddns-hostname finnastya;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host photosaiko {
+	hardware ethernet d8:ce:3a:31:2f:cc;
+	fixed-address 172.16.21.21;
+	option host-name photosaiko;
+	ddns-hostname photosaiko;
+}
+host test495 {
+	hardware ethernet 14:d9:37:ea:bb:4f;
+	fixed-address 172.16.1.180;
+	option host-name test495;
+	ddns-hostname test495;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host HenkorenkoPhone {
+	hardware ethernet ec:d0:9f:31:9d:5e;
+	fixed-address 172.16.1.7;
+	option host-name HenkorenkoPhone;
+	ddns-hostname HenkorenkoPhone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ohranagp {
+	hardware ethernet c8:3d:dc:44:b7:56;
+	fixed-address 172.16.1.95;
+	option host-name ohranagp;
+	ddns-hostname ohranagp;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host honorarhive {
+	hardware ethernet 34:79:16:55:3b:94;
+	fixed-address 172.16.1.137;
+	option host-name honorarhive;
+	ddns-hostname honorarhive;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host iMac {
+	hardware ethernet 28:f0:76:2e:b4:ea;
+	fixed-address 172.16.1.103;
+	option host-name iMac;
+	ddns-hostname iMac;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host samsanikeeva {
+	hardware ethernet a8:81:95:86:69:e4;
+	fixed-address 172.16.1.109;
+	option host-name samsanikeeva;
+	ddns-hostname samsanikeeva;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host pixiahta {
+	hardware ethernet 1c:cb:99:b1:aa:b7;
+	fixed-address 172.16.23.21;
+	option host-name pixiahta;
+	ddns-hostname pixiahta;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host Phone {
+	hardware ethernet 84:be:52:df:38:85;
+	fixed-address 172.16.1.143;
+	option host-name Phone;
+	ddns-hostname Phone;
+	option subnet-mask 255.255.255.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host StepanykPhone {
+	hardware ethernet 7c:d6:61:a1:64:6d;
+	fixed-address 172.16.1.9;
+	option host-name StepanykPhone;
+	ddns-hostname StepanykPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8, 8.8.8.8;
+}
+host SerovaPhone {
+	hardware ethernet fc:53:9e:9f:1b:0c;
+	fixed-address 172.16.1.12;
+	option host-name SerovaPhone;
+	ddns-hostname SerovaPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host MardanovPhone {
+	hardware ethernet 58:20:59:1c:95:14;
+	fixed-address 172.16.1.50;
+	option host-name MardanovPhone;
+	ddns-hostname MardanovPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host RedmiNote7 {
+	hardware ethernet e0:dc:ff:0d:4a:cc;
+	fixed-address 172.16.1.250;
+	option host-name RedmiNote7;
+	ddns-hostname RedmiNote7;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host kondratevaPhone {
+	hardware ethernet 8c:83:e1:44:c1:be;
+	fixed-address 172.16.1.14;
+	option host-name kondratevaPhone;
+	ddns-hostname kondratevaPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host elenaPhone {
+	hardware ethernet cc:07:e4:24:18:31;
+	fixed-address 172.16.1.53;
+	option host-name elenaPhone;
+	ddns-hostname elenaPhone;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host IvanovnaIpad {
+	hardware ethernet 24:a2:e1:4f:1a:c9;
+	fixed-address 172.16.1.37;
+	option host-name IvanovnaIpad;
+	ddns-hostname IvanovnaIpad;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host visockiy {
+	hardware ethernet d8:6c:02:91:d2:75;
+	fixed-address 172.16.1.59;
+	option host-name visockiy;
+	ddns-hostname visockiy;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host KachestvoNew {
+	hardware ethernet 00:e0:4c:d5:2d:2e;
+	fixed-address 172.16.1.154;
+	option host-name KachestvoNew;
+	ddns-hostname KachestvoNew;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host telefokhgyy {
+	hardware ethernet 38:e6:0a:8f:14:69;
+	fixed-address 172.16.1.139;
+	option host-name telefokhgyy;
+	ddns-hostname telefokhgyy;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host Ghihi {
+	hardware ethernet 88:70:8c:bf:e9:4c;
+	fixed-address 172.16.1.42;
+	option host-name Ghihi;
+	ddns-hostname Ghihi;
+}
+host routersherbakov {
+	hardware ethernet 90:94:e4:3d:93:2a;
+	fixed-address 172.16.1.45;
+	option host-name routersherbakov;
+	ddns-hostname routersherbakov;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host PhoneToDelete131319 {
+	hardware ethernet 00:88:86:d6:f9:57;
+	fixed-address 172.16.0.39;
+	option host-name PhoneToDelete131319;
+	ddns-hostname PhoneToDelete131319;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host PhoneToDel121219 {
+	hardware ethernet e0:62:67:24:06:f4;
+	fixed-address 172.16.0.99;
+	option host-name PhoneToDel121219;
+	ddns-hostname PhoneToDel121219;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host ogojelska-redmi {
+	hardware ethernet a8:9c:ed:75:bc:e7;
+	fixed-address 172.16.1.242;
+	option host-name ogojelska-redmi;
+	ddns-hostname ogojelska-redmi;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+}
+host xiaomit {
+	hardware ethernet 28:16:7f:64:33:0c;
+	fixed-address 172.16.1.142;
+	option host-name xiaomit;
+	ddns-hostname xiaomit;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host GalkinPC {
+	hardware ethernet 00:30:67:95:51:f1;
+	fixed-address 172.16.0.22;
+	option host-name GalkinPC;
+	ddns-hostname GalkinPC;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}
+host VPugaevaPC {
+	hardware ethernet 00:ea:ac:66:51:e9;
+	fixed-address 172.16.1.182;
+	option host-name VPugaevaPC;
+	ddns-hostname VPugaevaPC;
+	option subnet-mask 255.255.0.0;
+	option routers 172.16.0.3;
+	option domain-name-servers 8.8.8.8;
+}

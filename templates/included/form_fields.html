@@ -1,0 +1,15 @@
+{% load i18n %}
+
+{% if form.non_field_errors %}
+    {% for error in form.non_field_errors %}
+        <div class="alert alert-danger">
+            <i class="icon-exclamation-sign"></i> {{ error }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% with count_field=kkt_form.fields|length %}
+    {% for field in form %}
+        {% include 'included/form_field.html' with field=field sub_class=sub_class %}
+    {% endfor %}
+{% endwith %}

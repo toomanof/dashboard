@@ -1,0 +1,79 @@
+{% load static %}
+<div class="left_col scroll-view">
+  <div class="navbar nav_title" style="border: 0;">
+    <a href="index.html" class="site_title"><i class="fa fa-spinner"></i> <span>Панель</span></a>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <!-- menu profile quick info -->
+  <div class="profile clearfix">
+    <div class="profile_pic">
+      <img src="/static/dashboard/images/img.jpg" alt="..." class="img-circle profile_img">
+    </div>
+    <div class="profile_info">
+      {% if user.is_authenticated %}
+        <span>Добро пожаловать,</span>
+        <h2>{{user}}</h2>
+      {% endif %}
+    </div>
+  </div>
+  <!-- /menu profile quick info -->
+
+  <br />
+
+  <!-- sidebar menu -->
+  <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+    <div class="menu_section">
+      <h3>Основное</h3>
+      <ul class="nav side-menu">
+        <li><a><i class="fa fa-home"></i> Компания <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="{% url 'company:departments-list' %}">Отделы</a></li>
+            <li><a href="{% url 'company:employees-list' %}">Сотрудники</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="menu_section">
+      <ul class="nav side-menu">
+        <li class="active"><a><i class="fab fa-audible"></i>DHCP<span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="{% url 'localset:reg_hosts' %}">Хосты</a></li>
+            <li><a href="{% url 'localset:online_host'%}"><h3>On-line</h3></a></li>            
+            <li><a href="{% url 'company:net_devices' %}">Привязка устройств</a></li>
+          </ul>
+        </li>
+        <li><a><i class="fab fa-audible"></i>В сети <span class="fa fa-chevron-down"></span></a>
+          <ul class="nav child_menu">
+            <li><a href="">Все устройства</a></li>
+            <li><a href="">Видео камеры</a></li>
+            <li><a href=""><i class="fa fa-laptop"></i>Серверы</a></li>
+            <li><a href=""><i class="fa fa-sitemap"></i>Роутеры</a></li>
+            <li><a href=""><i class="fa fa-windows"></i>Компьютеры</a></li>
+            <li><a href="">Мобильные</a></li>
+            <li><a href=""><i class="fa fa-bug"></i>Не зарегистрированные</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- /sidebar menu -->
+
+  <!-- /menu footer buttons -->
+  <div class="sidebar-footer hidden-small">
+    <a data-toggle="tooltip" data-placement="top" title="Settings">
+      <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+    </a>
+    <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+      <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+    </a>
+    <a data-toggle="tooltip" data-placement="top" title="Lock">
+      <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+    </a>
+    <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+      <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!-- /menu footer buttons -->
+</div>
